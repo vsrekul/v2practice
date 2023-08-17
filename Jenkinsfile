@@ -11,7 +11,7 @@ pipeline{
             steps{
                 script{
                     sh '''
-                      docker build -t vsrekul\apachev2 .
+                      docker build -t vsrekul/apachev2 .
                     '''
                 }
             }
